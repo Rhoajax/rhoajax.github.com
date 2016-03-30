@@ -16,7 +16,7 @@ As always, I have the honor to pay attribute of the birth of this site to [Bowei
 
 ## About Me
 
-[Wiki](https://sites.google.com/site/starkwiki/), [Github](https://github.com/Rhoajax), [GoodReads](https://www.goodreads.com/user/show/19486474-j-roger), [douban](https://www.douban.com/people/74335928/), [bangumi](http://bangumi.tv/user/matrixanger). 
+[Wiki](https://sites.google.com/site/starkwiki/), [Github](https://github.com/Rhoajax)
 
 ## Recent Post
 
