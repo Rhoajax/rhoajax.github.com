@@ -1,0 +1,601 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+<channel>
+        <title>Ragnarök</title>
+        <description>Ragnarök - Linus Stark</description>
+        <link>http://username.github.io</link>
+        <link>http://username.github.io</link>
+        <lastBuildDate>2016-03-30T17:55:13+01:00</lastBuildDate>
+        <pubDate>2016-03-30T17:55:13+01:00</pubDate>
+        <ttl>1800</ttl>
+
+
+        <item>
+                <title>Future Internet: Clean slate or Evolutionary?</title>
+                <description>&lt;p&gt;For years the networking research community debates whether they should focus on designing new network architectures or keep improving the current ones. A paper &lt;span&gt;1&lt;/span&gt; shows a point/counterpoint debate between two representatives of each side. In this short essay, I&amp;#8217;d like to briefly summarize the opinions about the future development of Internet based mainly on this paper.&lt;/p&gt;
+
+&lt;h1 id='who'&gt;Who?&lt;/h1&gt;
+
+&lt;p&gt;Clean-slate vs. Evolutionary&lt;/p&gt;
+
+&lt;h1 id='why__main_points'&gt;Why? &amp;#8211; Main points&lt;/h1&gt;
+
+&lt;p&gt;The main argument of Clean-slate approach is that current architecture faces many challenges: security, mobility, and network management, etc. &lt;span&gt;?&lt;/span&gt; They are all deeply rooted in early design decisions of the Internet. Changes have to be made.&lt;/p&gt;
+
+&lt;p&gt;According to the Evolutionary approach, however, successful real-world implementation means everything. Current implementations are merely prepared for the test of economic and political constraints in the real world. As an example, ARPANET&amp;#8217;s success results from it being used as a production network.&lt;/p&gt;
+
+&lt;p&gt;There is no doubt that the Internet is a enormous success. However, it doesn&amp;#8217;t mean the current architecture is unarguably the &amp;#8220;Right Thing&amp;#8221;. In fact, this paper &lt;span&gt;2&lt;/span&gt; recalls some of the early reasoning that shaped the Internet protocols as it is. It turns out that some of them are merely a winner out of some possible choices. For example, the seemingly basic TCP/IP layer structure is not part of the original proposal, and &amp;#8220;most services within the Internet would like a more sophisticated transport model than simple datagram &amp;#8211; e.g. a &amp;#8220;stream&amp;#8221; is suggested as a possibly better building block. Besides, different network design is based on different priorities. As to ARPANET, its most important goal is its survivability, which then leading to a stateless connections. That is not necessarily the case in every network. Moreover, a lot of current research is deployed in production network, such as big companies like Google &lt;span&gt;3&lt;/span&gt;. They are just not public yet. ARPANET itself is also one option out of many &lt;span&gt;?&lt;/span&gt;. It is difficult to say that the success of ARPANET is totally without luck.&lt;/p&gt;
+
+&lt;h1 id='what__research_focus'&gt;What? &amp;#8211; Research Focus&lt;/h1&gt;
+
+&lt;p&gt;A proponent for evolutionary approach may declare that the clean-slate approach means designing a significantly better architecture on nearly all aspects than the current one, and if it can&amp;#8217;t, it&amp;#8217;s a failure. This is a misunderstanding. The fact is, a clean-slate cares more about new methodologies for designing networks/protocols than its immediate deployment in real world. According to the clean-slate approach, the field of networking is far from mature: &amp;#8220;We do not have anything approaching a discipline for creating, analyzing, and operating network protocols&amp;#8230;no top-down treatment, laws, or even rules of thumbs.&amp;#8221;&lt;/p&gt;
+
+&lt;p&gt;Regarding the research focus of network design theories, &lt;strong&gt;prescriptive network theory&lt;/strong&gt; seems quite promising, against most of today&amp;#8217;s descriptive theory.&lt;/p&gt;
+
+&lt;h1 id='how__experiment__implementation'&gt;How? &amp;#8211; Experiment &amp;amp; Implementation&lt;/h1&gt;
+
+&lt;p&gt;The Clean-slate approach states that building and deploy real systems on experimental facilities, such as &lt;a href='https://www.geni.net/'&gt;GENI&lt;/a&gt; and &lt;a href='http://www.fp7-federica.eu/'&gt;Federica&lt;/a&gt;, is an crucial part of a continuous cycle of research. Though the Evo declares that few clean-slate attempts succeed, such as per-flow QoSS guarantees CLNP and XCP, the fact is that IPv6 is already under a large-scale deployment. Times change, the clean-slate efforts is not necessary but also possible.&lt;/p&gt;
+
+&lt;p&gt;Concerning experiment and implementation in the development of Internet architectures, we should pay attention to &lt;strong&gt;SDN&lt;/strong&gt; and &lt;strong&gt;Virtulization&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;h1 id='when'&gt;When?&lt;/h1&gt;
+
+&lt;p&gt;I tend to believe that &amp;#8220;Punctuated Equilibrium&amp;#8221; theory does apply in the evolution of the Internet, which means one species will remain stable before the next great evolutionary change. Currently the basic networking theories taught in school are still not quite different from what 20 years ago ( &lt;em&gt;is it?&lt;/em&gt; ), and today may not be a perfect time for an total revolution of Internet architectures, but given cumulating enough research, &lt;em&gt;&amp;#8220;His judgement cometh and that right soon&amp;#8221;&lt;/em&gt;.&lt;/p&gt;
+
+&lt;h1 id='reference'&gt;Reference&lt;/h1&gt;
+
+&lt;p&gt;&lt;span&gt;1&lt;/span&gt; Rexford, Jennifer, and Constantine Dovrolis. &amp;#8220;Future Internet architecture: clean-slate versus evolutionary research.&amp;#8221; Communications of the ACM 53, no. 9 (2010): 36-40.&lt;/p&gt;
+
+&lt;p&gt;&lt;span&gt;2&lt;/span&gt; Clark, David. &amp;#8220;The design philosophy of the DARPA Internet protocols.&amp;#8221; ACM SIGCOMM Computer Communication Review 18, no. 4 (1988): 106-114.&lt;/p&gt;
+
+&lt;p&gt;&lt;span&gt;3&lt;/span&gt; Singh, A., Ong, J., Agarwal, A., Anderson, G., Armistead, A., Bannon, R., &amp;#8230; &amp;amp; Vahdat, A.. Jupiter Rising: A Decade of Clos Topologies and Centralized Control in Google&amp;#8217;s Datacenter Network. In Proc. 2015 ACM SIGCOMM (pp. 183-197).&lt;/p&gt;
+
+&lt;p&gt;This work is licensed under &lt;a href='https://creativecommons.org/licenses/by-nc-sa/4.0/'&gt;CC BY-NC-SA 4.0&lt;/a&gt;.&lt;/p&gt;</description>
+                <link>http://username.github.io/Network/2016/03/30/future-internet-clean-slate-or-evolutionary</link>
+                <guid>http://username.github.io/Network/2016/03/30/future-internet-clean-slate-or-evolutionary</guid>
+                <pubDate>2016-03-30T00:00:00+01:00</pubDate>
+        </item>
+
+        <item>
+                <title>A Research Survey</title>
+                <description>&lt;h2 id='group_1'&gt;Group 1&lt;/h2&gt;
+
+&lt;h3 id='the_microsoft_cloud_computing_research_centre'&gt;&lt;a href='http://www.mccrc.eu'&gt;The Microsoft Cloud Computing Research Centre&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;Launched in April 2014. Computer Lab is one of its collaborator. Its research theme is a little bit &amp;#8220;wired&amp;#8221;: it&amp;#8217;s about meeting challenges in cloud computing where technology and &lt;strong&gt;regulation&lt;/strong&gt; intersect, which means that despite computer scientists, the lawyers play an important part. It addresses complex and difficult areas of vital importance to governments, businesses, and communities around the globe. For example, the cloud computing services raise a numbers of legal ~~high~~ challenges, such as &amp;#8220;Regional Clouds&amp;#8221;.&lt;/p&gt;
+
+&lt;h3 id='csap'&gt;&lt;a href='http://www.csap.cam.ac.uk/'&gt;CSaP&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;Centre for Science and Policy. It aims at providing the network and mechanisms for high-quality engagement between academics and policy professionals. Here quotes Jon:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Many of the things I work on &amp;#8211; both in research and education &amp;#8211; potentially entail important policy considerations. CSaP’s programmes, particularly the Policy Fellowships and the Policy Workshops, provide a fantastic opportunity to interact directly with the policy makers who are grappling with the relevant issues in government and industry.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;So in my opinion this is a channel for researchers, policy makers and business makers to communicate.&lt;/p&gt;
+
+&lt;h3 id='security_and_privacy'&gt;&lt;a href='http://www.cl.cam.ac.uk/research/security/posters/20131108-cam-security-research.pdf'&gt;Security and Privacy&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;Cambridge has, for many years, been a centre for world-leading computer and communications security research, which spans many groups (basically &lt;em&gt;Every&lt;/em&gt; group in Computer Lab).&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Operating System Security&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Mirage&lt;/strong&gt; is a clean-slate OS written in &lt;em&gt;OCaml&lt;/em&gt;. Implementing the OS in a type-safe, &lt;strong&gt;functional language&lt;/strong&gt; offers security and reliability improvements through access to formal verification and immunity to many traditional vulnerabilities. MirageOS revisits the &lt;em&gt;library OS&lt;/em&gt; concept and narrows the gap between safe high-level programming and low-level systems construction.&lt;/p&gt;
+
+&lt;p&gt;The idea of the library OS is that the personality of the OS on which an application depends runs in the address space of the application. A small, fixed set of abstractions connects the library OS to the host OS kernel, offering the promise of better system security and more rapid independent evolution of OS components.&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;p&gt;Distributed-system Security&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Federated secure sensor network laboratory Shared sensor networks; multiple application; each app can use any sensor available.&lt;/p&gt;
+
+&lt;p&gt;For privacy: Different roles\owners\applications have different requirements. FRESNEL aims at offering a framework that supports merging of policies as specified by different roles in the system.&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;p&gt;NaaS: Network-as-a-service&lt;/p&gt;
+
+&lt;p&gt;An open challenge for Big Data: to balance the contention between nodes for network resources in data centers. The key idea is that tenants can customise the service that they receive from the network.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;p&gt;Personal Data Privacy in the Cloud&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;User-Centric Networking&lt;/p&gt;
+
+&lt;p&gt;We have uploaded too many personal data to online storage. The UCN projects aims at enhance mechanism to support privacy-preserving content recommendations and strike a balance between personal privacy and the need of the service industry.&lt;/p&gt;
+
+&lt;p&gt;Specifically, the PIH software stack let the users in total control of their data. Users can decide whether or not, what kind of, and to what degree their data can be shared with specific providers.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id='group_2__energy'&gt;Group 2 &amp;#8211; Energy&lt;/h2&gt;
+
+&lt;h3 id='internet'&gt;&lt;a href='http://www.internet-project.org.uk/'&gt;INTERNET&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;A little bit difficult to understand. I&amp;#8217;ll come back later.&lt;/p&gt;
+
+&lt;h3 id='energycambridge'&gt;&lt;a href='http://www.energy.cam.ac.uk/'&gt;Energy@Cambridge&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;At least I can see that the Cambridge guys take the energy stuff seriously. Guess it is one of the cutting-edge research field.&lt;/p&gt;
+
+&lt;h2 id='group_3'&gt;Group 3&lt;/h2&gt;
+
+&lt;p&gt;First let&amp;#8217;s meet three similar organizations: &lt;a href='http://www.cnn.group.cam.ac.uk/about-us'&gt;Cambridge Networks Network&lt;/a&gt;, &lt;a href='http://www.internet-science.eu/'&gt;Network Excellence in Internet Science&lt;/a&gt;, and &lt;a href='http://www.commnet.ac.uk/'&gt;Community Organisation of Events in Communications, Mobile Computing and Networking&lt;/a&gt;. In my opinion, they all try to provide an interdisciplinary environment to mitigate the &amp;#8220;Research fragmentation&amp;#8221; in specific areas: complex networks, Internet networks, and a grand vision across CS/EE/SIP. So we can accordingly see that productive dialogue and different perspectives are indeed taken seriously in technology development now.&lt;/p&gt;
+
+&lt;p&gt;So when these guys give a full discussion about the &amp;#8220;future network&amp;#8221;, there must be something we should investigate in &lt;a href='http://drops.dagstuhl.de/opus/volltexte/2013/4073/'&gt;the report&lt;/a&gt;. Chances are that it will presents a broad vision that could not have been perceived by us IT guys alone. (Oh, it reminds me of this misleading movie name: &lt;em&gt;IP man&lt;/em&gt; :)&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Social networks have to be considered, and can be combined with Communication networks&lt;/li&gt;
+
+&lt;li&gt;Use cases of SDN&lt;/li&gt;
+
+&lt;li&gt;Prescriptive Network Theories&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id='group_4'&gt;Group 4&lt;/h2&gt;
+
+&lt;h3 id='horizon_project'&gt;&lt;a href='http://www.horizon.ac.uk'&gt;Horizon Project&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;Horizon features Ubiquitous Computing, a key engine of innovation for our future digital economy. It is specifically interested in people&amp;#8217;s &lt;em&gt;lifelone contextual digital footprint&lt;/em&gt;. Horizon contains a great amount of sub-projects. I guess maybe it is (one of) the leading projects in the ubiquitous computing area. Again, interdisciplinary is a requisite part. Its ambitions also include policy influence, knowledge transfer.&lt;/p&gt;
+
+&lt;h3 id='public_access_wifi_service'&gt;&lt;a href='http://publicaccesswifi.org'&gt;Public Access WiFi Service&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;The PAWS project seeks to develop technology that will enable &lt;em&gt;free&lt;/em&gt; Internet connectivity to everyone whenever and wherever. Its core part is &lt;em&gt;sharing&lt;/em&gt;. The user who agree to share a small fraction of his high speed bandwidth can put a PAWS box near the home router. It is shared as a VPN, which solves the security concern. Then any signed PAWS users can access the shared WiFi with their devices. Of course, they will be offered low quality services. By allowing the digitally excluded to access to public services, this project can save the government a bunch of money.&lt;/p&gt;
+
+&lt;p&gt;One obvious question I can perceive would be: how to incentive the bandwidth-rich users to share?&lt;/p&gt;
+
+&lt;h3 id='global_access_to_the_internet_for_all_research_group'&gt;&lt;a href='https://irtf.org/gaia'&gt;Global Access to the Internet for All research group&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h2 id='group_5'&gt;Group 5&lt;/h2&gt;
+
+&lt;h3 id='ocaml_lab'&gt;&lt;a href='http://www.cl.cam.ac.uk/projects/ocamllabs/index.html'&gt;OCaml Lab&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;The goal of OCaml Lab is quite clear: push OCaml language, increase its applicability and popularity, create communities infrastructure, etc., just like any other language. The projects of this lab are more that just the language platform itself. Thy include an OS written in OCaml (MirageOS), a distributed platform application (Illuminate), a OCaml compiler (why it is not a part of the platform?), Trilogy 2 (described later), and a serious of propaganda plans.&lt;/p&gt;
+
+&lt;p&gt;Illuminate (not &lt;strong&gt;Illuminati&lt;/strong&gt;) is one use case of a bundle of techniques to make distributed devices in IoT more secure, reliable and easier to program. The used technologies include: MirageOS, Signposts, and Irminsule (the later two will be described later).&lt;/p&gt;
+
+&lt;p&gt;I was wondering, since this language is born in 1996, far ahead of Haskell, why the seven hell have I never heard of it before?&lt;/p&gt;
+
+&lt;h3 id='nymote'&gt;&lt;a href='http://nymote.org/'&gt;Nymote&lt;/a&gt;&lt;/h3&gt;</description>
+                <link>http://username.github.io/2015/01/02/profjons-research</link>
+                <guid>http://username.github.io/2015/01/02/profjons-research</guid>
+                <pubDate>2015-01-02T00:00:00+00:00</pubDate>
+        </item>
+
+        <item>
+                <title>I'm back!</title>
+                <description>&lt;p&gt;After one year, now I am ready to pick up my bloggin site. For one thing, I just can&amp;#8217;t find a handy blog site that is not blocked here. Besides, this old-schoold style of writing fit my taste.&lt;/p&gt;
+
+&lt;p&gt;OK, I&amp;#8217;m ready.&lt;/p&gt;
+
+&lt;p&gt;Oh, I almost forget it: Happy New Year! (Wow, time really flies, isn&amp;#8217;t it?) 皆さん、新年、おめでとうございます~ (^―^)　ニコリ&lt;/p&gt;</description>
+                <link>http://username.github.io/Non-sense/2014/12/31/im-back</link>
+                <guid>http://username.github.io/Non-sense/2014/12/31/im-back</guid>
+                <pubDate>2014-12-31T00:00:00+00:00</pubDate>
+        </item>
+
+        <item>
+                <title>Tips from Joel on Software</title>
+                <description>&lt;p&gt;这一篇文章写于一二年二月二十五日，从之前的博客搬运而来。&lt;/p&gt;
+
+&lt;p&gt;More Joel on Software, 中文译名为《软件随想录》，行文轻松幽默，充满了一位在软件行业摸爬滚打十几年的前辈的经验之谈。简单地看了其中的第二章“写给未来程序员的建议”和第五部分“编程建议”——其他部分是有关软件的管理运营等内容的，我认为对于目前脱离了CtrlC+CtrlV就只会编HelloWorld的自己来说，这些内容就和《代码大全》和《人月神话》等著作一样，现在看这些是不合适的。从这两章的内容中，大概列举了一下作者对于程序员的一些建议如下：&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;“学校只教Java是危险的” —— 因为它不够难。听起来是个很抖M的观点。 Joel认为，有些内容，比如C（不是C++）,函数式编程，Haskell，Lisp，Scheme，递归，指针等等，是编程思想的基础，其真正精髓也都是很难掌握的 —— 就是得有人来告诉你你的脑子并不足以胜任程序员这个职务。 如果你不了解机器语言，如果你不能解释&lt;code&gt;while(*s++ = *t++)&lt;/code&gt;这句话是在复制字符串，那么无论你懂再多的继承多态异常等等等等大道理，都不能够在高级语言的层次上写出高效的代码。 相反，“我从来没见过哪个能用Scheme、Haskell和C中的指针编程的人竟然不能在2天之内学会Java并且写出的Java程序竟然不能胜过那些有5年Java编程经验的人。”&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;- 从课程设置上就可以看出这些差别。 在常春藤盟校，只讲授UNIX、函数式编程、状态及理论。随着学校排名越来越往下，你就会看到Java语言开始出现了……所以说我感觉这就是从理论基础到实际应用的这么个过程。当然在实际应用中，这些基础其实是不常用而且有些也是最好不要使用的，比如指针。 但是如果不是真正地了解指针，你连一行Linux的代码也看不懂。如果不懂函数式编程，你就无法创造出MapReduce(原来早在这时就见过MapReduce这个词了,真是出乎意外)。 总之，要有牢固的基础。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;但是貌似也不能完全投身于基础。Joel回忆自己当年的一位教授“动态逻辑”课的老师，在证明“一个布尔值在进行取反运算偶数次后，其值同最开始一样”这么一个直觉就知道是正确的命题时，耗费了相当大的精力，一度证明到老师自己都快绝望的地步。作者的评价是“用这种艰深苦涩的理论来证明计算机程序这样实际、有趣的东西，不是一种有成效的方式……于是我判断自己并不适合读计算机系的研究生。” —— 如果抱着轻松的态度学习计算机科学，那么大可不必理会这种没多少实际意义的东西。比如刘左同志。&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;p&gt;练好写作技术。一个口齿不清的程序员和一名Leader的区别就在于后者可以通过清晰的注释和说明来使他人明白自己代码的价值。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;- 学好微观经济学。如果你懂得商业规则，你将是一个更加有价值的程序员，否则你就有可能提出一些在资本主义世界中毫无意义的垃圾点子。&lt;/p&gt;
+
+&lt;p&gt;- 大量的编程实践&lt;/p&gt;
+
+&lt;p&gt;更多的内容可以参见&lt;a href='http://www.joelonsoftware.com/'&gt;Joel的网站&lt;/a&gt;。&lt;/p&gt;</description>
+                <link>http://username.github.io/Software/2013/12/15/tips-from-joel-on-software</link>
+                <guid>http://username.github.io/Software/2013/12/15/tips-from-joel-on-software</guid>
+                <pubDate>2013-12-15T00:00:00+00:00</pubDate>
+        </item>
+
+        <item>
+                <title>Kaggle : Python, R, Matlab and Julia</title>
+                <description>&lt;p&gt;来自Quora的&lt;a href='http://www.quora.com/Kaggle/How-useful-is-Matlab-for-Kaggle-as-compared-with-R-and-Python'&gt;一篇帖子&lt;/a&gt;对比了这几种语言在Kaggle上使用时的特色。&lt;/p&gt;
+
+&lt;p&gt;Python&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;- 琐碎但是齐全的各色装备：Pandas, scikit.learn, numpy, scipy, ipython, matplotlib，不同情况下按需组装使用。
+- IPyhton极佳的交互体验
+- 作为一门通用编程语言的所有优势
+- 慢！
+- 因为琐碎，所以也有相应的缺点。比如有些工具仍然只支持2.7版本。
+- 开源的生态环境&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;R&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;- 一般来说，如果这个问题对统计学家来说比较有趣，那么它就适于R
+- 高质量的库，且专注于Unit Test
+- 在数据分析时RStudio 提供优秀的交互体验
+- 慢，各种占内存。
+- 语言本身长得难看（仅代表作者观点，我就不这么认为嘛……R自有它自己的一套哲学）&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Matlab&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;- 信号分析的无价之宝
+- 对于任何涉及到矩阵运算的过程，都是最简洁漂亮的语言。处理矩阵得心应手，相对的，处理其他东西就不那么利索。
+- 非开源，无法和其他系统整合&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Julia&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;- 单听名字就能判定性别的语言……开个玩笑……
+- 新生语言（2012年），在扩展库支持方面还很弱。
+- 努力把Matlab、Python等的高等语言的特性和C的速度结合起来。
+- 语法和Matlab很相似。但拥有高效的for loop，因此避免了不必要的Vectorization。
+- 我个人看好这种语言，以后后机会一定要试用一下。
+
+另外，关于Julia，其主要开发者之一“在 Strata 站点上[撰文阐释](http://strata.oreilly.com/2013/10/julias-role-in-data-science.html)了 Julia 在数据科学中的定位： 文章娓娓道来，解释了 Julia 语言的设计、与 R 和  Python 的关系，综述了生态系统的现状，以及对未来的展望~”（以上文字来自“统计之都”）在对于未来的展望这方面，作者提到了三点：一是完善Julia的图形工具，二是提高其与Python的整合能力，三是提升建模工具质量，继续引入R的各种统计功能。当然，除此之外，Julia自身也还在持续进化中。&lt;/code&gt;&lt;/pre&gt;</description>
+                <link>http://username.github.io/Data Analysis/2013/12/15/kaggle--python-r-matlab-and-julia</link>
+                <guid>http://username.github.io/Data Analysis/2013/12/15/kaggle--python-r-matlab-and-julia</guid>
+                <pubDate>2013-12-15T00:00:00+00:00</pubDate>
+        </item>
+
+        <item>
+                <title>First Jekyll</title>
+                <description>&lt;p&gt;Here is a try.&lt;/p&gt;
+
+&lt;p&gt;我们来试着捕捉它。&lt;/p&gt;
+
+&lt;p&gt;できる！俺達は、ガンダムだあああああ！&lt;/p&gt;</description>
+                <link>http://username.github.io/2013/12/10/first-jekyll</link>
+                <guid>http://username.github.io/2013/12/10/first-jekyll</guid>
+                <pubDate>2013-12-10T00:00:00+00:00</pubDate>
+        </item>
+
+        <item>
+                <title>Jekyll Introduction</title>
+                <description>&lt;p&gt;This Jekyll introduction will outline specifically what Jekyll is and why you would want to use it. Directly following the intro we&amp;#8217;ll learn exactly &lt;em&gt;how&lt;/em&gt; Jekyll does what it does.&lt;/p&gt;
+
+&lt;h2 id='overview'&gt;Overview&lt;/h2&gt;
+
+&lt;h3 id='what_is_jekyll'&gt;What is Jekyll?&lt;/h3&gt;
+
+&lt;p&gt;Jekyll is a parsing engine bundled as a ruby gem used to build static websites from dynamic components such as templates, partials, liquid code, markdown, etc. Jekyll is known as &amp;#8220;a simple, blog aware, static site generator&amp;#8221;.&lt;/p&gt;
+
+&lt;h3 id='examples'&gt;Examples&lt;/h3&gt;
+
+&lt;p&gt;This website is created with Jekyll. &lt;a href='https://github.com/mojombo/jekyll/wiki/Sites'&gt;Other Jekyll websites&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id='what_does_jekyll_do'&gt;What does Jekyll Do?&lt;/h3&gt;
+
+&lt;p&gt;Jekyll is a ruby gem you install on your local system. Once there you can call &lt;code&gt;jekyll --server&lt;/code&gt; on a directory and provided that directory is setup in a way jekyll expects, it will do magic stuff like parse markdown/textile files, compute categories, tags, permalinks, and construct your pages from layout templates and partials.&lt;/p&gt;
+
+&lt;p&gt;Once parsed, Jekyll stores the result in a self-contained static &lt;code&gt;_site&lt;/code&gt; folder. The intention here is that you can serve all contents in this folder statically from a plain static web-server.&lt;/p&gt;
+
+&lt;p&gt;You can think of Jekyll as a normalish dynamic blog but rather than parsing content, templates, and tags on each request, Jekyll does this once &lt;em&gt;beforehand&lt;/em&gt; and caches the &lt;em&gt;entire website&lt;/em&gt; in a folder for serving statically.&lt;/p&gt;
+
+&lt;h3 id='jekyll_is_not_blogging_software'&gt;Jekyll is Not Blogging Software&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;Jekyll is a parsing engine.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Jekyll does not come with any content nor does it have any templates or design elements. This is a common source of confusion when getting started. Jekyll does not come with anything you actually use or see on your website - you have to make it.&lt;/p&gt;
+
+&lt;h3 id='why_should_i_care'&gt;Why Should I Care?&lt;/h3&gt;
+
+&lt;p&gt;Jekyll is very minimalistic and very efficient. The most important thing to realize about Jekyll is that it creates a static representation of your website requiring only a static web-server. Traditional dynamic blogs like Wordpress require a database and server-side code. Heavily trafficked dynamic blogs must employ a caching layer that ultimately performs the same job Jekyll sets out to do; serve static content.&lt;/p&gt;
+
+&lt;p&gt;Therefore if you like to keep things simple and you prefer the command-line over an admin panel UI then give Jekyll a try.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Developers like Jekyll because we can write content like we write code:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Ability to write content in markdown or textile in your favorite text-editor.&lt;/li&gt;
+
+&lt;li&gt;Ability to write and preview your content via localhost.&lt;/li&gt;
+
+&lt;li&gt;No internet connection required.&lt;/li&gt;
+
+&lt;li&gt;Ability to publish via git.&lt;/li&gt;
+
+&lt;li&gt;Ability to host your blog on a static web-server.&lt;/li&gt;
+
+&lt;li&gt;Ability to host freely on GitHub Pages.&lt;/li&gt;
+
+&lt;li&gt;No database required.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id='how_jekyll_works'&gt;How Jekyll Works&lt;/h1&gt;
+
+&lt;p&gt;The following is a complete but concise outline of exactly how Jekyll works.&lt;/p&gt;
+
+&lt;p&gt;Be aware that core concepts are introduced in rapid succession without code examples. This information is not intended to specifically teach you how to do anything, rather it is intended to give you the &lt;em&gt;full picture&lt;/em&gt; relative to what is going on in Jekyll-world.&lt;/p&gt;
+
+&lt;p&gt;Learning these core concepts should help you avoid common frustrations and ultimately help you better understand the code examples contained throughout Jekyll-Bootstrap.&lt;/p&gt;
+
+&lt;h2 id='initial_setup'&gt;Initial Setup&lt;/h2&gt;
+
+&lt;p&gt;After &lt;a href='/index.html#start-now'&gt;installing jekyll&lt;/a&gt; you&amp;#8217;ll need to format your website directory in a way jekyll expects. Jekyll-bootstrap conveniently provides the base directory format.&lt;/p&gt;
+
+&lt;h3 id='the_jekyll_application_base_format'&gt;The Jekyll Application Base Format&lt;/h3&gt;
+
+&lt;p&gt;Jekyll expects your website directory to be laid out like so:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;.
+|-- _config.yml
+|-- _includes
+|-- _layouts
+|   |-- default.html
+|   |-- post.html
+|-- _posts
+|   |-- 2011-10-25-open-source-is-good.markdown
+|   |-- 2011-04-26-hello-world.markdown
+|-- _site
+|-- index.html
+|-- assets
+    |-- css
+        |-- style.css
+    |-- javascripts&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;_config.yml&lt;/strong&gt; Stores configuration data.&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;_includes&lt;/strong&gt; This folder is for partial views.&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;_layouts&lt;/strong&gt; This folder is for the main templates your content will be inserted into. You can have different layouts for different pages or page sections.&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;_posts&lt;/strong&gt; This folder contains your dynamic content/posts. the naming format is required to be &lt;code&gt;@YEAR-MONTH-DATE-title.MARKUP@&lt;/code&gt;.&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;_site&lt;/strong&gt; This is where the generated site will be placed once Jekyll is done transforming it.&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;assets&lt;/strong&gt; This folder is not part of the standard jekyll structure. The assets folder represents &lt;em&gt;any generic&lt;/em&gt; folder you happen to create in your root directory. Directories and files not properly formatted for jekyll will be left untouched for you to serve normally.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;(read more: &lt;a href='https://github.com/mojombo/jekyll/wiki/Usage'&gt;https://github.com/mojombo/jekyll/wiki/Usage&lt;/a&gt;)&lt;/p&gt;
+
+&lt;h3 id='jekyll_configuration'&gt;Jekyll Configuration&lt;/h3&gt;
+
+&lt;p&gt;Jekyll supports various configuration options that are fully outlined here: (&lt;a href='https://github.com/mojombo/jekyll/wiki/Configuration'&gt;https://github.com/mojombo/jekyll/wiki/Configuration&lt;/a&gt;)&lt;/p&gt;
+
+&lt;h2 id='content_in_jekyll'&gt;Content in Jekyll&lt;/h2&gt;
+
+&lt;p&gt;Content in Jekyll is either a post or a page. These content &amp;#8220;objects&amp;#8221; get inserted into one or more templates to build the final output for its respective static-page.&lt;/p&gt;
+
+&lt;h3 id='posts_and_pages'&gt;Posts and Pages&lt;/h3&gt;
+
+&lt;p&gt;Both posts and pages should be written in markdown, textile, or HTML and may also contain Liquid templating syntax. Both posts and pages can have meta-data assigned on a per-page basis such as title, url path, as well as arbitrary custom meta-data.&lt;/p&gt;
+
+&lt;h3 id='working_with_posts'&gt;Working With Posts&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;Creating a Post&lt;/strong&gt; Posts are created by properly formatting a file and placing it the &lt;code&gt;_posts&lt;/code&gt; folder.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Formatting&lt;/strong&gt; A post must have a valid filename in the form &lt;code&gt;YEAR-MONTH-DATE-title.MARKUP&lt;/code&gt; and be placed in the &lt;code&gt;_posts&lt;/code&gt; directory. If the data format is invalid Jekyll will not recognize the file as a post. The date and title are automatically parsed from the filename of the post file. Additionally, each file must have &lt;a href='https://github.com/mojombo/jekyll/wiki/YAML-Front-Matter'&gt;YAML Front-Matter&lt;/a&gt; prepended to its content. YAML Front-Matter is a valid YAML syntax specifying meta-data for the given file.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Order&lt;/strong&gt; Ordering is an important part of Jekyll but it is hard to specify a custom ordering strategy. Only reverse chronological and chronological ordering is supported in Jekyll.&lt;/p&gt;
+
+&lt;p&gt;Since the date is hard-coded into the filename format, to change the order, you must change the dates in the filenames.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Tags&lt;/strong&gt; Posts can have tags associated with them as part of their meta-data. Tags may be placed on posts by providing them in the post&amp;#8217;s YAML front matter. You have access to the post-specific tags in the templates. These tags also get added to the sitewide collection.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Categories&lt;/strong&gt; Posts may be categorized by providing one or more categories in the YAML front matter. Categories offer more significance over tags in that they can be reflected in the URL path to the given post. Note categories in Jekyll work in a specific way. If you define more than one category you are defining a category hierarchy &amp;#8220;set&amp;#8221;. Example:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;---
+title :  Hello World
+categories : [lessons, beginner]
+---&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;This defines the category hierarchy &amp;#8220;lessons/beginner&amp;#8221;. Note this is &lt;em&gt;one category&lt;/em&gt; node in Jekyll. You won&amp;#8217;t find &amp;#8220;lessons&amp;#8221; and &amp;#8220;beginner&amp;#8221; as two separate categories unless you define them elsewhere as singular categories.&lt;/p&gt;
+
+&lt;h3 id='working_with_pages'&gt;Working With Pages&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;Creating a Page&lt;/strong&gt; Pages are created by properly formatting a file and placing it anywhere in the root directory or subdirectories that do &lt;em&gt;not&lt;/em&gt; start with an underscore.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Formatting&lt;/strong&gt; In order to register as a Jekyll page the file must contain &lt;a href='https://github.com/mojombo/jekyll/wiki/YAML-Front-Matter'&gt;YAML Front-Matter&lt;/a&gt;. Registering a page means 1) that Jekyll will process the page and 2) that the page object will be available in the &lt;code&gt;site.pages&lt;/code&gt; array for inclusion into your templates.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Categories and Tags&lt;/strong&gt; Pages do not compute categories nor tags so defining them will have no effect.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Sub-Directories&lt;/strong&gt; If pages are defined in sub-directories, the path to the page will be reflected in the url. Example:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;.
+|-- people
+    |-- bob
+        |-- essay.html&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;This page will be available at &lt;code&gt;http://yourdomain.com/people/bob/essay.html&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Recommended Pages&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;index.html&lt;/strong&gt; You will always want to define the root index.html page as this will display on your root URL.&lt;/li&gt;
+
+&lt;li&gt;&lt;strong&gt;404.html&lt;/strong&gt; Create a root 404.html page and GitHub Pages will serve it as your 404 response.&lt;/li&gt;
+
+&lt;li&gt;&lt;strong&gt;sitemap.html&lt;/strong&gt; Generating a sitemap is good practice for SEO.&lt;/li&gt;
+
+&lt;li&gt;&lt;strong&gt;about.html&lt;/strong&gt; A nice about page is easy to do and gives the human perspective to your website.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id='templates_in_jekyll'&gt;Templates in Jekyll&lt;/h2&gt;
+
+&lt;p&gt;Templates are used to contain a page&amp;#8217;s or post&amp;#8217;s content. All templates have access to a global site object variable: &lt;code&gt;site&lt;/code&gt; as well as a page object variable: &lt;code&gt;page&lt;/code&gt;. The site variable holds all accessible content and metadata relative to the site. The page variable holds accessible data for the given page or post being rendered at that point.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Create a Template&lt;/strong&gt; Templates are created by properly formatting a file and placing it in the &lt;code&gt;_layouts&lt;/code&gt; directory.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Formatting&lt;/strong&gt; Templates should be coded in HTML and contain YAML Front Matter. All templates can contain Liquid code to work with your site&amp;#8217;s data.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Rending Page/Post Content in a Template&lt;/strong&gt; There is a special variable in all templates named : &lt;code&gt;content&lt;/code&gt;. The &lt;code&gt;content&lt;/code&gt; variable holds the page/post content including any sub-template content previously defined. Render the content variable wherever you want your main content to be injected into your template:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;...
+&amp;lt;body&amp;gt;
+  &amp;lt;div id=&quot;sidebar&quot;&amp;gt; ... &amp;lt;/div&amp;gt;
+  &amp;lt;div id=&quot;main&quot;&amp;gt;
+    &amp;#123;{content}&amp;#125;
+  &amp;lt;/div&amp;gt;
+&amp;lt;/body&amp;gt;
+...&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id='subtemplates'&gt;Sub-Templates&lt;/h3&gt;
+
+&lt;p&gt;Sub-templates are exactly templates with the only difference being they define another &amp;#8220;root&amp;#8221; layout/template within their YAML Front Matter. This essentially means a template will render inside of another template.&lt;/p&gt;
+
+&lt;h3 id='includes'&gt;Includes&lt;/h3&gt;
+
+&lt;p&gt;In Jekyll you can define include files by placing them in the &lt;code&gt;_includes&lt;/code&gt; folder. Includes are NOT templates, rather they are just code snippets that get included into templates. In this way, you can treat the code inside includes as if it was native to the parent template.&lt;/p&gt;
+
+&lt;p&gt;Any valid template code may be used in includes.&lt;/p&gt;
+
+&lt;h2 id='using_liquid_for_templating'&gt;Using Liquid for Templating&lt;/h2&gt;
+
+&lt;p&gt;Templating is perhaps the most confusing and frustrating part of Jekyll. This is mainly due to the fact that Jekyll templates must use the Liquid Templating Language.&lt;/p&gt;
+
+&lt;h3 id='what_is_liquid'&gt;What is Liquid?&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href='https://github.com/Shopify/liquid'&gt;Liquid&lt;/a&gt; is a secure templating language developed by &lt;a href='http://shopify.com'&gt;Shopify&lt;/a&gt;. Liquid is designed for end-users to be able to execute logic within template files without imposing any security risk on the hosting server.&lt;/p&gt;
+
+&lt;p&gt;Jekyll uses Liquid to generate the post content within the final page layout structure and as the primary interface for working with your site and post/page data.&lt;/p&gt;
+
+&lt;h3 id='why_do_we_have_to_use_liquid'&gt;Why Do We Have to Use Liquid?&lt;/h3&gt;
+
+&lt;p&gt;GitHub uses Jekyll to power &lt;a href='http://pages.github.com/'&gt;GitHub Pages&lt;/a&gt;. GitHub cannot afford to run arbitrary code on their servers so they lock developers down via Liquid.&lt;/p&gt;
+
+&lt;h3 id='liquid_is_not_programmerfriendly'&gt;Liquid is Not Programmer-Friendly.&lt;/h3&gt;
+
+&lt;p&gt;The short story is liquid is not real code and its not intended to execute real code. The point being you can&amp;#8217;t do jackshit in liquid that hasn&amp;#8217;t been allowed explicitly by the implementation. What&amp;#8217;s more you can only access data-structures that have been explicitly passed to the template.&lt;/p&gt;
+
+&lt;p&gt;In Jekyll&amp;#8217;s case it is not possible to alter what is passed to Liquid without hacking the gem or running custom plugins. Both of which cannot be supported by GitHub Pages.&lt;/p&gt;
+
+&lt;p&gt;As a programmer - this is very frustrating.&lt;/p&gt;
+
+&lt;p&gt;But rather than look a gift horse in the mouth we are going to suck it up and view it as an opportunity to work around limitations and adopt client-side solutions when possible.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Aside&lt;/strong&gt; My personal stance is to not invest time trying to hack liquid. It&amp;#8217;s really unnecessary &lt;em&gt;from a programmer&amp;#8217;s&lt;/em&gt; perspective. That is to say if you have the ability to run custom plugins (i.e. run arbitrary ruby code) you are better off sticking with ruby. Toward that end I&amp;#8217;ve built &lt;a href='http://github.com/plusjade/mustache-with-jekyll'&gt;Mustache-with-Jekyll&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id='static_assets'&gt;Static Assets&lt;/h2&gt;
+
+&lt;p&gt;Static assets are any file in the root or non-underscored subfolders that are not pages. That is they have no valid YAML Front Matter and are thus not treated as Jekyll Pages.&lt;/p&gt;
+
+&lt;p&gt;Static assets should be used for images, css, and javascript files.&lt;/p&gt;
+
+&lt;h2 id='how_jekyll_parses_files'&gt;How Jekyll Parses Files&lt;/h2&gt;
+
+&lt;p&gt;Remember Jekyll is a processing engine. There are two main types of parsing in Jekyll.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Content parsing.&lt;/strong&gt; This is done with textile or markdown.&lt;/li&gt;
+
+&lt;li&gt;&lt;strong&gt;Template parsing.&lt;/strong&gt; This is done with the liquid templating language.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;And thus there are two main types of file formats needed for this parsing.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Post and Page files.&lt;/strong&gt; All content in Jekyll is either a post or a page so valid posts and pages are parsed with markdown or textile.&lt;/li&gt;
+
+&lt;li&gt;&lt;strong&gt;Template files.&lt;/strong&gt; These files go in &lt;code&gt;_layouts&lt;/code&gt; folder and contain your blogs &lt;strong&gt;templates&lt;/strong&gt;. They should be made in HTML with the help of Liquid syntax. Since include files are simply injected into templates they are essentially parsed as if they were native to the template.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Arbitrary files and folders.&lt;/strong&gt; Files that &lt;em&gt;are not&lt;/em&gt; valid pages are treated as static content and pass through Jekyll untouched and reside on your blog in the exact structure and format they originally existed in.&lt;/p&gt;
+
+&lt;h3 id='formatting_files_for_parsing'&gt;Formatting Files for Parsing.&lt;/h3&gt;
+
+&lt;p&gt;We&amp;#8217;ve outlined the need for valid formatting using &lt;strong&gt;YAML Front Matter&lt;/strong&gt;. Templates, posts, and pages all need to provide valid YAML Front Matter even if the Matter is empty. This is the only way Jekyll knows you want the file processed.&lt;/p&gt;
+
+&lt;p&gt;YAML Front Matter must be prepended to the top of template/post/page files:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;---
+layout: post
+category : pages
+tags : [how-to, jekyll]
+---
+
+... contents ...&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Three hyphens on a new line start the Front-Matter block and three hyphens on a new line end the block. The data inside the block must be valid YAML.&lt;/p&gt;
+
+&lt;p&gt;Configuration parameters for YAML Front-Matter is outlined here: &lt;a href='https://github.com/mojombo/jekyll/wiki/YAML-Front-Matter'&gt;A comprehensive explanation of YAML Front Matter&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id='defining_layouts_for_posts_and_templates_parsing'&gt;Defining Layouts for Posts and Templates Parsing.&lt;/h4&gt;
+
+&lt;p&gt;The &lt;code&gt;layout&lt;/code&gt; parameter in the YAML Front Matter defines the template file for which the given post or template should be injected into. If a template file specifies its own layout, it is effectively being used as a &lt;code&gt;sub-template.&lt;/code&gt; That is to say loading a post file into a template file that refers to another template file with work in the way you&amp;#8217;d expect; as a nested sub-template.&lt;/p&gt;
+
+&lt;h2 id='how_jekyll_generates_the_final_static_files'&gt;How Jekyll Generates the Final Static Files.&lt;/h2&gt;
+
+&lt;p&gt;Ultimately, Jekyll&amp;#8217;s job is to generate a static representation of your website. The following is an outline of how that&amp;#8217;s done:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Jekyll collects data.&lt;/strong&gt; Jekyll scans the posts directory and collects all posts files as post objects. It then scans the layout assets and collects those and finally scans other directories in search of pages.&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Jekyll computes data.&lt;/strong&gt; Jekyll takes these objects, computes metadata (permalinks, tags, categories, titles, dates) from them and constructs one big &lt;code&gt;site&lt;/code&gt; object that holds all the posts, pages, layouts, and respective metadata. At this stage your site is one big computed ruby object.&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Jekyll liquifies posts and templates.&lt;/strong&gt; Next jekyll loops through each post file and converts (through markdown or textile) and &lt;strong&gt;liquifies&lt;/strong&gt; the post inside of its respective layout(s). Once the post is parsed and liquified inside the the proper layout structure, the layout itself is &amp;#8220;liquified&amp;#8221;. &lt;strong&gt;Liquification&lt;/strong&gt; is defined as follows: Jekyll initiates a Liquid template, and passes a simpler hash representation of the ruby site object as well as a simpler hash representation of the ruby post object. These simplified data structures are what you have access to in the templates.&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Jekyll generates output.&lt;/strong&gt; Finally the liquid templates are &amp;#8220;rendered&amp;#8221;, thereby processing any liquid syntax provided in the templates and saving the final, static representation of the file.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;strong&gt;Notes.&lt;/strong&gt; Because Jekyll computes the entire site in one fell swoop, each template is given access to a global &lt;code&gt;site&lt;/code&gt; hash that contains useful data. It is this data that you&amp;#8217;ll iterate through and format using the Liquid tags and filters in order to render it onto a given page.&lt;/p&gt;
+
+&lt;p&gt;Remember, in Jekyll you are an end-user. Your API has only two components:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;The manner in which you setup your directory.&lt;/li&gt;
+
+&lt;li&gt;The liquid syntax and variables passed into the liquid templates.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;All the data objects available to you in the templates via Liquid are outlined in the &lt;strong&gt;API Section&lt;/strong&gt; of Jekyll-Bootstrap. You can also read the original documentation here: &lt;a href='https://github.com/mojombo/jekyll/wiki/Template-Data'&gt;https://github.com/mojombo/jekyll/wiki/Template-Data&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id='conclusion'&gt;Conclusion&lt;/h2&gt;
+
+&lt;p&gt;I hope this paints a clearer picture of what Jekyll is doing and why it works the way it does. As noted, our main programming constraint is the fact that our API is limited to what is accessible via Liquid and Liquid only.&lt;/p&gt;
+
+&lt;p&gt;Jekyll-bootstrap is intended to provide helper methods and strategies aimed at making it more intuitive and easier to work with Jekyll =)&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Thank you&lt;/strong&gt; for reading this far.&lt;/p&gt;
+
+&lt;h2 id='next_steps'&gt;Next Steps&lt;/h2&gt;
+
+&lt;p&gt;Please take a look at &lt;a href='' /&gt; or jump right into &lt;a href=''&gt;Usage&lt;/a&gt; if you&amp;#8217;d like.&lt;/p&gt;</description>
+                <link>http://username.github.io/lessons/2011/12/29/jekyll-introduction</link>
+                <guid>http://username.github.io/lessons/2011/12/29/jekyll-introduction</guid>
+                <pubDate>2011-12-29T00:00:00+00:00</pubDate>
+        </item>
+
+
+</channel>
+</rss>
