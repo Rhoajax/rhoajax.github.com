@@ -2,9 +2,7 @@
 layout: post
 title: "Tips from Joel on Software"
 description: "Some insightful tip from master"
-category: "Software"
 ---
-{% include JB/setup %}
 这一篇文章写于一二年二月二十五日，从之前的博客搬运而来。
 
 More Joel on Software, 中文译名为《软件随想录》，行文轻松幽默，充满了一位在软件行业摸爬滚打十几年的前辈的经验之谈。简单地看了其中的第二章“写给未来程序员的建议”和第五部分“编程建议”——其他部分是有关软件的管理运营等内容的，我认为对于目前脱离了CtrlC+CtrlV就只会编HelloWorld的自己来说，这些内容就和《代码大全》和《人月神话》等著作一样，现在看这些是不合适的。从这两章的内容中，大概列举了一下作者对于程序员的一些建议如下：

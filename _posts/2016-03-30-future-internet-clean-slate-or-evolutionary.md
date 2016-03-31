@@ -3,9 +3,8 @@ layout: post
 title: "Future Internet: Clean slate or Evolutionary?"
 description: "A summsary of a good article"
 category: "Network"
-tags: [Network, Reflection]
+tags: [Network]
 ---
-{% include JB/setup %}
 
 For years the networking research community debates whether they should focus on designing new network architectures or keep improving the current ones. A paper [1] shows a point/counterpoint debate between two representatives of each side. In this short essay, I'd like to briefly summarize the opinions about the future development of Internet based mainly on this paper.
 

@@ -2,9 +2,7 @@
 layout: post
 title: "Kaggle : Python, R, Matlab and Julia"
 description: "Comparing 4 languages widely used in Kaggle"
-category: "Data Analysis"
 ---
-{% include JB/setup %}
 
 来自Quora的[一篇帖子](http://www.quora.com/Kaggle/How-useful-is-Matlab-for-Kaggle-as-compared-with-R-and-Python)对比了这几种语言在Kaggle上使用时的特色。
 
