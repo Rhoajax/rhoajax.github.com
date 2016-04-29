@@ -5,7 +5,7 @@ date:   2016-02-16
 categories: privacy
 ---
 
-##I
+## I
 
 One article ["Time is an Illusion"](http://cacm.acm.org/magazines/2016/1/195723-time-is-an-illusion-lunchtime-doubly-so/fulltext) in 01/2016 Vol. Comm. ACM reveals an astonishing fact: the modern computers actually behave really poorly in keeping time: the quartz on motherboard that is used for timekeeping is prone to factors like temperature, leaving *a second* longer or shorter.  Since highly accurate & expensive crystals on each machine is not a likely picture, external sources for references is often necessary -- which makes *time* an oscillation rather than a fixed integer. This is the ideas of protocols like NTP and PTP. NTP applies hierarchies like DNS, with root servers having the most accurate time. When requirements for time precision is higher, such as in High Frequency Transactions, PTP is more suitable (in a controlled data centre/single network). Many details should be carefully consider, such as jitter. In the end, we will always be confined by the limited transmission speed of signals.  
 
@@ -13,7 +13,7 @@ One article ["Time is an Illusion"](http://cacm.acm.org/magazines/2016/1/195723-
 
 It reminds of a mystery novel by Yukito Ayatsuji: [The Clock Mansion Murders](http://www.amazon.co.uk/Murder-Clock-Lt-Valcour-Mystery/dp/1479408336): How do you feel if you suddenly find out that what you have been thought of as a most reliable locator in the universe is actually opaque, misty, and actually not (*Insert colourful and optionally offensive word*) reliable at all?
 
-##II
+## II
 
 > “Foes and false friends are all around me, Lord Davos. They infest my city like roaches, and at night I feel them crawling over me.” 
 
@@ -21,13 +21,13 @@ Do you know what your mobile phones are doing? Making phone calls, sending messa
 
 We can find loads of examples from different scientific fields. Not a news to any Computer Science 1st year student: the numbers in a computer is not unlimited. Here `1 - 65535 > 0` and `10 / 2 == 4.9999999987668` might both be true under some circumstances. That doesn't mean mathematics itself is totally bulletproof: two parallel lines can cross in some theories. The three crises in Mathematics had raised serious questions about its foundations. Some cases in Physics are surely more famous, such as Heisenberg's uncertainty principle and the cat of Schrödinger. 
 
-##III
+## III
 
 > "You know nothing, Jon Snow".
 
 So here we are. On one hand, it kind of feels terrible to know that what we have been treating as common sense are actually illusions; on the other, however, in most cases it is totally OK to forget them. The clock on a computer works sufficiently good for me and Euclidean geometry is more that enough to use in my whole life time. But the lesson here is that we need to keep an open mind, and never take anything for granted when you dig deep enough in a field of research.
 
-##IV
+## IV
 
 Maybe not about research but some facts about the harrassment women face in some part of our world still astonishes me:
 > A survey by the UN in 2013 found that a startling 99% of Egyptian women are victims. [^slappingback]
